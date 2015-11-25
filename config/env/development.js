@@ -3,7 +3,7 @@
 module.exports = {
 	db: 'mongodb://localhost/startapp-dev',
 	app: {
-		title: 'StartApp - Development Environment'
+		title: 'UtgAdmApp - Development Environment'
 	},
 	facebook: {
 		clientID: process.env.FACEBOOK_ID || 'APP_ID',

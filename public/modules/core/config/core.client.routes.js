@@ -7,10 +7,18 @@ angular.module('core').config(['$stateProvider', '$urlRouterProvider',
 		$urlRouterProvider.otherwise('/');
 
 		// Home state routing
-		$stateProvider.
-		state('home', {
+		$stateProvider
+		.state('home', {
 			url: '/',
 			templateUrl: 'modules/core/views/home.client.view.html'
+		})
+        .state('metrics', {
+			url: '/metrics',
+			templateUrl: 'modules/core/views/metrics.client.view.html'
+		})
+        .state('mysqltest', {
+			url: '/mysqltest',
+			templateUrl: 'modules/core/views/mysqltest.client.view.html'
 		});
 	}
 ]);

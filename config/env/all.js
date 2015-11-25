@@ -2,11 +2,11 @@
 
 module.exports = {
 	app: {
-		title: 'StartApp',
-		description: 'Full-Stack JavaScript with MongoDB, Express, AngularJS, and Node.js',
-		keywords: 'MongoDB, Express, AngularJS, Node.js'
+		title: 'UtgAdmApp',
+		description: 'Utegration app to manage project, time, budget',
+		keywords: 'Utegration'
 	},
-	port: process.env.PORT || 3000,
+	port: process.env.PORT || 8080,
 	templateEngine: 'swig',
 	sessionSecret: 'MEAN',
 	sessionCollection: 'sessions',
