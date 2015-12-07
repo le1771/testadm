@@ -8,6 +8,6 @@ angular.module('core').controller('MySqlTestController', ['$scope', 'Authenticat
 
         // Some example string
         $scope.helloText = 'MySQL Test Page';
-        $scope.descriptionText = 'Test Connection& Query to MySQL DB';
+        $scope.descriptionText = 'Test Connection&Query to MySQL DB & CI';
 	}
 ]);
